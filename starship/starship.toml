@@ -1,0 +1,30 @@
+add_newline = true
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$docker_context\
+$python\
+$cmd_duration\
+$line_break\
+$character
+"""
+
+[directory]
+truncation_length = 3
+truncate_to_repo = false
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[docker_context]
+symbol = "🐳 "

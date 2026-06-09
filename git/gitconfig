@@ -1,0 +1,7 @@
+[user]
+	name = Estevaldo Fraga Ribeiro
+	email = estevaldo@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
